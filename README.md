@@ -7,4 +7,4 @@
 <h4 align="center"> Made with ❤️</h4>
 <hr>
 <h4 align="center"> Created by PRPetkov22 | &copy 2023 All rights reserved.</h4>
-<h1 align="center">Thanks for checking out mine repo, show us some ❤️ by giving mine repo a ⭐️!</h1>
+<h1 align="center">Thanks for checking out my repo, show us some ❤️ by giving my repo a ⭐️!</h1>
