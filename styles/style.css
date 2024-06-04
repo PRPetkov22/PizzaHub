@@ -1,0 +1,136 @@
+body{
+    height: 300vh;
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/background.png);
+}
+nav{
+    position: fixed;
+    background: linear-gradient(90deg, rgba(202,0,0,1) 0%, rgba(97,0,0,1) 50%, rgba(202,0,0,1) 100%); 
+    height: 12.1vh;
+    width: 100vw;
+}
+.menu{
+    height: 2.6vh;
+    width: 1.6vw;
+    margin-left: 1.6vw;
+    margin-top: 4.4vh;
+    position: fixed;
+    cursor: pointer;
+}
+.pizza{
+    height: 12.65vh;
+    width: 6.35vw;
+    margin-left: 4vw;
+    margin-top: -0.2vh;
+    position: fixed;
+    transition-property: rotate;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    cursor: pointer;
+}
+.pizza:hover{
+        rotate: 360deg;
+}
+.name{
+    position: fixed;
+    font-family:Arial black;
+    font-size: 2.3vw;
+    color:rgb(255, 255, 255);
+    margin-left: 10.4vw;
+    margin-top: 2.4vh;
+
+}
+.symbol{
+    color: rgb(255, 255, 255);
+    font-family:Arial black;
+    margin-left: 21.6vw;
+    position: fixed;
+    font-size: 0.7vw;
+}
+.pizza2{
+    margin-left: 24vw;
+    margin-top:-46.9vh;
+    height: 59vh;
+    width: 42vw;
+    position: fixed;
+}
+.order-button{
+    position: fixed;
+    background-color: white;
+    margin-left: 63vw;
+    margin-top: 3vh;
+    width: 12vw;
+    height: 6vh;
+    border-color: white;
+    border:0;
+    border-radius: 1.7vw;
+    font-family:Arial black;
+    font-size: 1.1vw;
+    cursor: pointer;
+    color:rgb(202, 0, 0);
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    
+
+}
+.order-button:hover{
+    position: fixed;
+    background-color: rgb(236, 236, 236);
+}
+.order-button:active{
+    position: fixed;
+    background-color: transparent;
+    color: rgba(202, 0, 0, 0);
+    border: 0.15vw solid whitesmoke;
+    border-radius: 1.7vw;
+    color: whitesmoke;
+}
+.order{
+    margin-top: 1.23vh;
+    position: sticky;
+}
+
+.phone{
+    position: fixed;
+    margin-left: 76.15vw;
+    width: 2.5vw;
+    margin-top: 3.4vh;
+    transition-property: rotate;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    cursor: pointer;
+}
+.phone:hover{
+    rotate: 360deg;
+}
+.line{
+    background-color: white;
+    height: 8vh;
+    width: 0.04vw;
+    margin-left: 80vw;
+    margin-top: 1.9vh;
+    border-radius: 1vh;
+}
+.profile{
+    position: fixed;
+    width: 2.5vw;
+    margin-top: -6.4vh;
+    margin-left: 95.5vw;
+    cursor: pointer;
+}
+.cart{
+    position: fixed;
+    width: 3.4vw;
+    margin-left: 81.1vw;
+    margin-top: -7.3vh;
+    cursor:pointer;
+}
+.items{
+    font-family:Arial black;
+    color: white;
+    margin-left: 84.9vw;
+    margin-top: -4.8vh;
+    font-size: 0.85vw;
+}
